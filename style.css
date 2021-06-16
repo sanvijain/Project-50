@@ -14,13 +14,20 @@ body{
     background-color:whitesmoke;
 }
 .grid{
-    border: 2px solid black;
-    border-radius: 50px;
+    
+    display:flex;
+    flex-wrap:wrap;
+
+    font-family: sans-serif;
+    
 }
+
 .origami{
     border-radius: 20px;
     background-color: white;
 
-    width:310px;
+    /*width:310px;*/
     font-family: fantasy;
+    flex:33.33%;
+    
 }
